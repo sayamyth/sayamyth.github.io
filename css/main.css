@@ -1719,6 +1719,13 @@ article:last-child .post-eof {
   margin: 0 auto;
   max-width: 120px;
   padding: 2px;
+  border-radius: 50%;
+}
+.site-author-image {
+  transition: transform 1s ease-out;
+}
+.site-author-image:hover {
+  transform: rotateZ(360deg);
 }
 .site-author-name {
   color: #222;
@@ -1746,7 +1753,7 @@ article:last-child .post-eof {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #38ffd5;
+  background: #abfe2e;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2763,4 +2770,28 @@ ul.breadcrumb li + li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+body {
+  background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568394258140&di=dfdf67012cbb76fe2bba24229767e054&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F8%2F5811b0c0bd5a7.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+/*这是设置底部文字, 看个人需要修改*/
+}
+body #footer > div > div {
+  color: #de5e5e;
+}
+.btn:hover {
+  border-color: #fff;
+  color: #222;
+  background: #fff;
+}
+.main-inner {
+  background: #fff;
+  opacity: 0.8;
 }
